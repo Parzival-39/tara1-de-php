@@ -1,0 +1,228 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333;
+}
+.ancho {
+  max-width: 1200px;
+  margin: auto;
+}
+.margen {
+  padding: 10px;
+}
+.centrar {
+  text-align: center;
+}
+
+.azul {
+  background-color: #D5EFF0 ;
+}
+
+.caja {
+  width: 580px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.nombre {
+  text-align: right;
+  margin-top: 30px;
+  color: #097578;
+  font-weight: bold;
+}
+
+.bts a {
+
+  text-decoration: none;
+  margin: 1px ;
+  padding: 10px 30px;
+  color: #097578;
+  font-weight: bold;
+}
+
+.bts a:hover {
+  background-color: #097578;
+  color: white;
+}
+
+.fondo {
+  background-image: url(imagenes/foto_slide.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 550px;
+}
+
+.Relax {
+  color: white ;
+  padding-top: 230px;
+  line-height: 60px;
+}
+
+.Relax h2 {
+  font-size: 100px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 100;
+}
+.Relax h3 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: italic;
+}
+
+.Relax a {
+  text-decoration: none;
+  color: white;
+  padding: 10px 30px ;
+  background-color: #097578;
+}
+
+.texto {
+  color: #00544F;
+}
+.texto h1 {
+    line-height: 60px;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.img1 {
+  width: 380px;
+  display: inline-block;
+  vertical-align: top;
+  text-align: left;
+}
+.img2 {
+  width: 350px;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 40px;
+  margin-right: 35px;
+  text-align: left;
+}
+.img1 img {
+  height: 415px;
+}
+
+.img2 img {
+  height: 530px;
+}
+
+.imagenes {
+  color: #00544F;
+}
+
+.imagenes h1 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+
+
+
+.abajo {
+  background-color: #00544F;
+}
+
+.logo {
+  text-align: left;
+  padding-left: 50px;
+}
+.caja_final {
+  width: 380px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.txt {
+  margin-top: 30px;
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 23px;
+  line-height: 40px;
+}
+
+.ig {
+  margin-top: 40px;
+  padding: 15px 40px;
+  text-align: right;
+}
+
+.ig a {
+  color: #00544F;
+  background-color: white;
+  padding: 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.azulito {
+  color: #097578;
+}
+.verdesito {
+  color: #00544F;
+
+}
+.verde {
+  background-color: #00544F;
+}
+
+.servi {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding: 40px;
+  line-height: 45px;
+  font-size: 20px;
+  color: white;
+}
+
+.informacion {
+  color: #00544F;
+  padding: 20px 40px 20px 40px;
+}
+
+.letra_georgia {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  line-height: 40px;
+  font-size: 35px;
+}
+
+.btn_verde {
+  text-decoration: none;
+  color: white;
+  padding: 10px 30px ;
+  background-color: #097578;
+  margin-top: px;
+}
+
+
+form {
+  margin: 0px 150px 0px 150px;
+  padding:20px 30px 20px 30px ;
+  background-color: #00544F;
+}
+input {
+  margin: 10px 10px 25px 10px;
+  width: 350px;
+  padding: 10px 0px 10px 15px;
+  border: none;
+  background-color: #216965;
+}
+
+::placeholder {
+  color: white;
+}
+
+button {
+  width: 725px;
+  padding: 15px;
+  color: white;
+  background-color: #097578;
+  border: none;
+  cursor: pointer;
+}
